@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Jkdd
+    runtime: python
+    buildCommand: pip install -r requirements.txt || pip install kivy
+    startCommand: python main.py
